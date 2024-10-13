@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Таблица товаров</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Список товаров с калькулятором</h1>
+        <button id="downloadCsv">Скачать CSV</button> <!-- Кнопка для скачивания CSV -->
+        <table id="productTable">
+            <thead>
+                <tr>
+                    <th>Наименование товара</th>
+                    <th>Классификация товара</th>
+                    <th>Категория</th>
+                    <th>Единица измерения</th>
+                    <th>Стоимость</th>
+                    <th>Наценка (%)</th>
+                    <th>Стоимость с наценкой</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Данные будут загружены с помощью JS -->
+            </tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
