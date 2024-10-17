@@ -91,7 +91,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Функция для скачивания CSV файла
     document.getElementById('downloadCsv').addEventListener('click', function() {
         const rows = [];
-        const headers = ['Наименование товара', 'Классификация товара', 'Категория', 'Единица измерения', 'Стоимость', 'Наценка (%)', 'Стоимость с наценкой'];
+        const headers = ['Наименование товара', 'Классификация товара', 'Категория', 'Единица измерения', 'Стоимость', 'Наценка', 'Стоимость с наценкой'];
         rows.push(headers);
 
         // Собираем данные из таблицы
