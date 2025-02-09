@@ -1,1 +1,63 @@
-.DS_Store
+# Операционные системы
+.DS_Store                # macOS
+Thumbs.db                # Windows
+ehthumbs.db
+Desktop.ini
+
+# Лог файлы
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE/Редакторы
+.idea/                   # IntelliJ IDEA, WebStorm
+.vscode/                 # Visual Studio Code
+*.suo                    # Visual Studio
+*.user
+*.vcxproj
+*.csproj
+*.code-workspace
+
+# Командные оболочки
+*.swp                    # vim
+*.swo
+
+# Служебные файлы
+*.bak
+*.tmp
+*.lock
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn.lock
+pnpm-lock.yaml
+package-lock.json
+
+# Билды
+dist/
+build/
+*.min.js
+*.min.css
+
+# Тесты
+coverage/
+
+# Скомпилированные файлы
+dist/
+build/
+
+# Служебные редакторов
+*.sass-cache
+
+# Среда разработки
+.env                    # Конфигурация окружения
+.env.local
+.env.*.local
+
+# Данные
+*.sqlite3
+db.sqlite3
+*.p12
+*.key
